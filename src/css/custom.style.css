@@ -1,0 +1,13 @@
+.origin-checkbox:checked ~ .custom-checkbox {
+    border-color: #F0CA91 !important;
+    background: #F0CA91 !important;
+}
+
+.custom-checkbox > .check-icon {
+    scale: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.origin-checkbox:checked ~ .custom-checkbox > .check-icon {
+    scale: 1;
+}
